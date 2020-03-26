@@ -1,0 +1,88 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+#div_transparente {
+        background-color: rgba(0, 0, 0, 0.2);
+}
+.div_trans2 { background-color: rgba(0, 0, 0, 0.2); }
+.div_trans5 { background-color: rgba(0, 0, 0, 0.5); }
+.div_trans8 { background-color: rgba(0, 0, 0, 0.8); }
+.div_trans9 { background-color: rgba(0, 0, 0, 0.9); }
+
+.t-white { color: #FFFFFF;}
+.t-white-link { color: #FFFFFF; text-decoration: none;}
+.t-white-link:hover { color: #FF9933; text-decoration: none;}
+.t-red { color: #F10400;}
+.t-red-link { color: #F17C00; text-decoration: none;}
+.t-red-link:hover { color: #F17C00; text-decoration: none;}
+.t-black { color: #000000 !important;}
+.t-black-link { color: #000000; text-decoration: none;}
+.t-black-link:hover { color: #666666; text-decoration: none;}
+.t-blue { color: #31708f;}
+.t-blue-link { color: #31708f; text-decoration: none;}
+.t-blue-link:hover { color: #337ab7; text-decoration: none;}
+.t-blue-link:visited { color: #337ab7; text-decoration: none;}
+.t-blue-link:active { color: #337ab7; text-decoration: none;}
+.t-yellow { color: #ffc107;}
+.b-white { background-color: #FFFFFF;}
+.b-yellow { background-color: #ffc107;}
+.b-black { background-color: #000000;}
+
+.font12 { font-size: 8px;}
+.font12 { font-size: 10px;}
+.font12 { font-size: 12px;}
+.font14 { font-size: 14px;}
+.font16 { font-size: 16px;}
+.font20 { font-size: 20px;}
+.font24 { font-size: 24px;}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/app/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+.background {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.corner4 {
+    border-radius: 25px;
+}
+
+.flexGrow {
+    flex-grow: 1;
+}
+-->
